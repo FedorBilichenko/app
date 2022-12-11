@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import * as React from 'react';
+
+import FirstPage from './FirstPage/FirstPage';
+import TestPage from './TestPage/TestPage';
+import Header from './Header/Header';
+
 import './App.css';
 
-function App() {
+const App = () => {
+    const [page, setPage] = React.useState('first');
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Header />
+        <div className="App-content">
+            {page === 'first' && <FirstPage onClick={setPage} />}
+            {page === 'test' && <TestPage />}
+        </div>
+        </div>
   );
 }
 

@@ -1,0 +1,12 @@
+.icon {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}

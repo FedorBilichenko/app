@@ -1,0 +1,104 @@
+.test-page {
+    padding: 16px 20px;
+}
+
+.test-page__counter {
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.test-page__question {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.test-page__option {
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.test-page__option-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+
+.test-page__ad {
+    background-color: #ffffff;
+    padding: 4px;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-page__ad-image {
+    text-align: center;
+    width: 251px;
+    height: 148px;
+}
+
+.test-page__ad-banner {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 4;
+    font-size: 10px;
+    background-color: rgba(0,0,0,0.18);
+    border-radius: 30px;
+    color: white;
+    padding: 3px 6px 2px;
+    backdrop-filter: blur(32px);
+}
+
+.test-page__ad-title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.test-page__ad-button {
+    color: #ffffff;
+    background-color: rgb(77, 145, 228);
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.test-page__final {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-page__final-title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+}
+
+.test-page__final-content {
+    padding: 16px 20px;
+    font-size: 18px;
+    color: #5d5c73;
+    background-color: #FFFFFF;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.test-page__final-content-h2 {
+    text-align: center;
+}
